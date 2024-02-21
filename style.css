@@ -1,13 +1,21 @@
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px; 
+  margin: 0 auto; 
+  padding: 0 20px;
 }
 
-body, h1, h2, h3, p, ul, li, footer {
+body, h1, h2, h3, p, footer {
   margin: 0;
   padding: 0;
-  list-style: none;
+}
+
+ul {
+  padding-left: 40px; 
+  list-style-type: disc; 
+}
+
+li {
+  margin-bottom: 10px; 
 }
 
 body {
@@ -27,14 +35,14 @@ header, section, footer {
   height: 150px;
   border-radius: 50%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; 
   border: 3px solid #fff;
   position: relative;
-  top: 20px;
+  top: 20px; 
 }
 
 h1, h2 {
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 
 h2 {
